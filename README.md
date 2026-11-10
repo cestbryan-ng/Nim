@@ -44,9 +44,6 @@ Une partie se déroule ainsi :
 ## Installation
 
 ```bash
-cd "C:\Users\ngoup\OneDrive\Documents\Projet\Python\IA\RL\nim"
-python -m venv .venv
-.\.venv\Scripts\activate
 python play.py
 ```
 
@@ -125,16 +122,3 @@ Ce projet est un excellent exemple d'apprentissage par renforcement appliqué à
 - comment représenter les états et les actions,
 - comment utiliser une table Q pour apprendre des stratégies efficaces,
 - comment tester le comportement appris face à un joueur humain.
-
-## Améliorations possibles
-
-- ajouter une interface graphique,
-- utiliser un modèle plus avancé que la table Q,
-- comparer plusieurs hyperparamètres (`alpha`, `epsilon`),
-- jouer avec des configurations de jeu différentes,
-- implémenter une version où l'IA apprend en jouant contre un humain.
-
-## Licence
-
-Ce projet est destiné à des fins éducatives et de démonstration.
-
